@@ -1,0 +1,19 @@
+{
+  "name": "solana-onchain-ai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.4",
+    "chart.js": "^4.4.6",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.72.0"
+  }
+}
