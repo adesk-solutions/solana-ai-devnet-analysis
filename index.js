@@ -96,8 +96,8 @@ async function main() {
   console.log(`Number of Tokens: ${tokens.length}`);
 
   if (tokens.length > 0) {
-    // Analyze with AI
-    const tokens = [
+    // Analyze with AI for testing purposes only
+    /*const tokens = [
         { symbol: "BONK", amount: 10000, project: "Memecoin" },
         { symbol: "USDC", amount: 500, project: "Stablecoin" },
         { symbol: "NFT_XYZ", amount: 3, project: "NFT Marketplace" },
@@ -111,7 +111,7 @@ async function main() {
         { symbol: "SAMO", amount: 10000, project: "Memecoin" },
         { symbol: "USDT", amount: 750, project: "Stablecoin" },
         { symbol: "STSOL", amount: 1.2, project: "Staking Derivative Token" },
-    ];
+    ];*/
     
     analyzeTokensWithAI(tokens).then(console.log);
     
