@@ -4,11 +4,11 @@ import fetch from 'node-fetch';
 
 // API Configurations
 const SOLANA_RPC_URL = "https://api.devnet.solana.com"; // Replace with your RPC URL
-const OPENAI_API_KEY = "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"; // Replace with your OpenAI API Key
+const OPENAI_API_KEY = "open-api-key"; // Replace with your OpenAI API Key
 
 // Initialize OpenAI
 const openai = new OpenAI({
-    apiKey: "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", // Replace with your OpenAI API Key
+    apiKey: "open-api-key", // Replace with your OpenAI API Key
 });
 
 //const configuration = new Configuration({ apiKey: OPENAI_API_KEY });
